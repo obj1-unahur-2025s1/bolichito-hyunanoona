@@ -1,0 +1,12 @@
+import bolichito.*
+import cosas.*
+
+test "el rojo es un color fuerte"{
+    assert.that(rojo.fuerte())
+}
+
+test "puedo modificar el peso del muñeco"{
+    muñeco.peso(600)
+    assert.equals(600, muñeco.peso())
+}
+
